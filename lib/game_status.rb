@@ -48,7 +48,8 @@ end
 
 def winner(board)
   if won?(board)
-    board.detect
-    
+    board.select do |token|
+      puts token
+
   end
 end
