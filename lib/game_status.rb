@@ -48,6 +48,7 @@ end
 
 def winner(board)
   if won?(board)
-    WIN_COMBINATIONS.detect
+    board.detect
+    
   end
 end
