@@ -50,6 +50,6 @@ def winner(board)
   if won?(board)
     board.select do |token|
       puts token
-
+    end
   end
 end
