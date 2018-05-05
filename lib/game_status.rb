@@ -47,5 +47,7 @@ def over?(board)
 end
 
 def winner(board)
-  binding.pry
+  if won?(board)
+    board[0]
+  end
 end
